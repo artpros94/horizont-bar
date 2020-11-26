@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
